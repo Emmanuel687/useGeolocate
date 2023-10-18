@@ -1,5 +1,5 @@
 import React from "react";
-import "./Index.css"
+import "./index.css"
 const useGeolocation = () => {
   const [isLoading, setIsLoading] = React.useState(false);
   const [position, setPosition] = React.useState({});
